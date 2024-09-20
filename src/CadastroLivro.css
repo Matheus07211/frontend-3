@@ -1,0 +1,201 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  form div {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #444;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+  }
+  
+  input[type="text"]:focus, input[type="number"]:focus, select:focus {
+    border: 1px solid #007bff;
+    outline: none;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  h3 {
+    margin-top: 40px;
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  td {
+    color: #333;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Ícones de ação */
+  button i {
+    font-size: 1.2rem;
+  }
+  
+  /* Estilização dos ícones de ações */
+  .acao-editar i {
+    color: #007bff; /* Azul para editar */
+    transition: color 0.3s ease;
+  }
+  
+  .acao-editar i:hover {
+    color: #0056b3;
+  }
+  
+  .acao-excluir i {
+    color: #dc3545; /* Vermelho para excluir */
+    transition: color 0.3s ease;
+  }
+  
+  .acao-excluir i:hover {
+    color: #c82333;
+  }
+  
+  .acao-cadastrar {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .acao-cadastrar i {
+    margin-right: 5px;
+  }
+  
+  /* Hover nas linhas da tabela */
+  table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+
+  /* Estilos para o formulário */
+form {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  button.editar {
+    background-color: #007bff; /* Azul */
+  }
+  
+  button.excluir {
+    background-color: #dc3545; /* Vermelho */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  td {
+    font-size: 14px;
+  }
+  
+  /* Formata o valor como R$ */
+  .valor {
+    text-align: right;
+  }
+  
